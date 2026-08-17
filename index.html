@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOGIX SERVICE– Réparation Informatique à Abidjan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <!-- Logo -->
+      <a href="#accueil" class="logo">
+        <div class="logo__icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="8" fill="var(--primary)" />
+            <path d="M10 14h20M10 20h12M10 26h8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" />
+            <circle cx="28" cy="24" r="4" fill="#fff" />
+          </svg>
+        </div>
+        <div class="logo__text">
+          <span class="logo__brand">BOGIX <span class="text-primary">SERVICE</span></span>
+          <span class="logo__sub">Expertise Informatique</span>
+        </div>
+      </a>
+
+      <!-- Navigation -->
+      <nav class="nav" id="nav">
+        <a href="#accueil" class="nav__link active">Accueil</a>
+        <a href="#services" class="nav__link">Nos Services</a>
+        <a href="#tarifs" class="nav__link">Tarifs / Abonnements</a>
+        <a href="#blog" class="nav__link">Tutoriels / Blog</a>
+        <a href="#apropos" class="nav__link">À Propos</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Prendre rendez-vous</a>
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="accueil">
+    <div class="glow glow-blue"></div>
+    <div class="glow glow-purple"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="badge badge--pulse"> DIAGNOSTIC GRATUIT</span>
+        <h1 class="hero__title">
+          Avez-vous une panne ? <span class="text-primary">bogix services est là pour vous</span>
+        </h1>
+        <p class="hero__desc">
+          Experts en réparation de PC, MacBook et serveurs à Abidjan. Diagnostic précis, réparation rapide et garantie
+          totale sur nos interventions.
+        </p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary btn--lg">Réserver maintenant</a>
+          <a href="https://wa.me/2250104230486" class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.138.558 4.147 1.535 5.889L.057 23.998l6.304-1.654A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.887 9.887 0 01-5.049-1.381l-.362-.215-3.741.981 1-3.641-.236-.374A9.9 9.9 0 012.106 12C2.106 6.529 6.529 2.106 12 2.106S21.894 6.529 21.894 12 17.471 21.894 12 21.894z" />
+            </svg>
+            Parler sur WhatsApp
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="28" height="28">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+            <div>
+              <strong>1000+</strong>
+              <span>Réparations</span>
+            </div>
+          </div>
+          <div class="stat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="28" height="28">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+            <div>
+              <strong>98%</strong>
+              <span>Clients satisfaits</span>
+            </div>
+          </div>
+          <div class="stat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="28" height="28">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+            <div>
+              <strong>48h</strong>
+              <span>Temps moyen de réparation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS CAROUSEL ==================== -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container text-center">
+      <h2 class="mb-4">Ils nous font confiance</h2>
+      <p class="mb-12">Plus de 1000 ordinateurs sauvés et autant de clients satisfaits.</p>
+
+      <div class="carousel-container">
+        <div class="carousel-track testimony-track">
+          <div class="carousel-item pricing-card">
+            <p>"Service ultra rapide, mon MacBook est comme neuf !"</p>
+            <div class="author">
+              <strong>Koffi M.</strong>
+              <span>Entrepreneur</span>
+            </div>
+          </div>
+          <div class="carousel-item pricing-card featured">
+            <p>"Récupération de données inespérée sur mon disque dur HS. Merci !"</p>
+            <div class="author">
+              <strong>Aïcha B.</strong>
+              <span>Étudiante</span>
+            </div>
+          </div>
+          <div class="carousel-item pricing-card">
+            <p>"Contrat de maintenance pro pour mon agence. Plus aucun souci technique."</p>
+            <div class="author">
+              <strong>Yao A.</strong>
+              <span>Gérant PME</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES CAROUSEL ==================== -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <h2 class="mb-4">Nos Services</h2>
+      <p class="mb-12">Une expertise complète pour tous vos besoins informatiques.</p>
+
+      <div class="carousel-container">
+        <div class="carousel-track services-track">
+          <div class="carousel-item pricing-card">
+            <h3>Réparation PC & Mac</h3>
+            <p>Écran, clavier, batterie ou carte mère. Nous réparons tout.</p>
+            <ul class="features">
+              <li>✓ Diagnostic gratuit</li>
+              <li>✓ Garantie 6 mois</li>
+            </ul>
+          </div>
+          <div class="carousel-item pricing-card">
+            <h3>Cyber-Sécurité</h3>
+            <p>Suppression de virus et protection avancée de vos données.</p>
+            <ul class="features">
+              <li>✓ Nettoyage complet</li>
+              <li>✓ Installation antivirus</li>
+            </ul>
+          </div>
+          <div class="carousel-item pricing-card">
+            <h3>Optimisation IA</h3>
+            <p>Conseil et intégration d'outils IA pour votre productivité.</p>
+            <ul class="features">
+              <li>✓ Audit de processus</li>
+              <li>✓ Formation équipes</li>
+            </ul>
+          </div>
+          <div class="carousel-item pricing-card">
+            <h3>Maintenance Pro</h3>
+            <p>Abonnements de maintenance préventive pour entreprises.</p>
+            <ul class="features">
+              <li>✓ Support 24/7</li>
+              <li>✓ Visites mensuelles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROBLÈMES ==================== -->
+  <section class="problems section--compact">
+    <div class="container">
+      <p class="problems__label">Un problème ? <strong>Nous pouvons vous aider.</strong></p>
+      <div class="problems__grid">
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+              <path d="M7 8l4 4-4 4" stroke-width="1.5" />
+            </svg>
+          </div>
+          <span>Écran cassé</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+              <path d="M9 9h6M9 12h4" />
+            </svg>
+          </div>
+          <span>PC lent</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <path d="M12 8v4M12 16h.01" />
+            </svg>
+          </div>
+          <span>Virus</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <rect x="2" y="7" width="20" height="10" rx="2" />
+              <path d="M6 10h12M6 14h8" />
+            </svg>
+          </div>
+          <span>Clavier HS</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <rect x="2" y="7" width="18" height="11" rx="2" />
+              <path d="M22 11v3" />
+              <path d="M6 11h6" />
+            </svg>
+          </div>
+          <span>Batterie morte</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <path
+                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+            </svg>
+          </div>
+          <span>Surchauffe</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" />
+              <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" />
+              <path d="M9 12l6 6M15 12l-6 6" />
+            </svg>
+          </div>
+          <span>SSD défectueux</span>
+        </div>
+        <div class="problem-item">
+          <div class="problem-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+              <path d="M10 2L5 7H2v10h3l5 5V2z" />
+              <path d="M15.54 8.46a5 5 0 010 7.07M19.07 4.93a10 10 0 010 14.14" />
+              <line x1="2" y1="2" x2="22" y2="22" stroke-width="1.5" />
+            </svg>
+          </div>
+          <span>Perte de données</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== POURQUOI NOUS ==================== -->
+  <section class="why section" id="apropos">
+    <div class="container">
+      <div class="why__inner">
+        <div class="why__left">
+          <div class="section__label section__label--light">POURQUOI NOUS CHOISIR</div>
+          <h2 class="section__title section__title--light">L'expertise, la rapidité<br>et la confiance</h2>
+          <a href="#services" class="btn btn--primary btn--lg why__btn">Découvrir plus</a>
+        </div>
+        <div class="why__features">
+          <div class="why-feature">
+            <div class="why-feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 20c0-4 3.58-7 8-7s8 3 8 7" />
+                <path d="M16 11l2 2 4-4" stroke-width="2" />
+              </svg>
+            </div>
+            <h4>Expertise</h4>
+            <p>Plus de 10 ans d'expérience dans la réparation informatique.</p>
+          </div>
+          <div class="why-feature">
+            <div class="why-feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <h4>Rapidité</h4>
+            <p>Diagnostic sous 24h et réparation dans les meilleurs délais.</p>
+          </div>
+          <div class="why-feature">
+            <div class="why-feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="M9 12l2 2 4-4" />
+              </svg>
+            </div>
+            <h4>Garantie</h4>
+            <p>Pièces et main d'œuvre garanties pour une tranquillité totale.</p>
+          </div>
+          <div class="why-feature">
+            <div class="why-feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="32" height="32">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </div>
+            <h4>Transparence</h4>
+            <p>Devis clair avant toute intervention. Aucun frais caché.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TÉMOIGNAGES ==================== -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="testimonials__top">
+        <div class="testimonials__stats">
+          <h2 class="testimonials__title">Plus de <span class="text-accent">1000 ordinateurs</span> sauvés.</h2>
+          <div class="kpi-row">
+            <div class="kpi">
+              <strong>1000+</strong>
+              <span>Réparations réussies</span>
+            </div>
+            <div class="kpi">
+              <strong>500+</strong>
+              <span>Clients réguliers</span>
+            </div>
+            <div class="kpi">
+              <strong>4.9/5</strong>
+              <span>Satisfaction clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__cards">
+          <div class="testi-card">
+            <p>"Service rapide, mon PC est comme neuf ! Je le recommande fortement."</p>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-author">
+              <div class="testi-avatar testi-avatar--1">KM</div>
+              <div>
+                <strong>Koffi M.</strong>
+                <span>Client fidèle</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <p>"J'ai récupéré toutes mes données, merci à l'équipe bogix service !"</p>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-author">
+              <div class="testi-avatar testi-avatar--2">AB</div>
+              <div>
+                <strong>Aïcha B.</strong>
+                <span>Étudiante</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <p>"Professionnels, transparents et honnêtes. Meilleur service à Abidjan."</p>
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-author">
+              <div class="testi-avatar testi-avatar--3">YA</div>
+              <div>
+                <strong>Yao A.</strong>
+                <span>Entrepreneur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TARIFS ==================== -->
+  <section class="section pricing" id="tarifs">
+    <div class="container">
+      <div class="text-center mb-16">
+        <h2 class="mb-4">Des forfaits adaptés à vos besoins</h2>
+        <p>Expertise et tranquillité d'esprit au meilleur prix.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="pricing-card">
+          <span class="badge mb-4">Basique</span>
+          <h3>Standard</h3>
+          <div class="price">
+            <span class="amount">5 000</span>
+            <span class="period">/mois</span>
+          </div>
+          <ul class="features">
+            <li>✓ Diagnostic gratuit</li>
+            <li>✓ Optimisation système</li>
+            <li>✓ Support email</li>
+          </ul>
+          <button class="btn-primary">Choisir ce plan</button>
+        </article>
+
+        <article class="pricing-card featured">
+          <div class="popular-badge">Plus populaire</div>
+          <span class="badge mb-4">Recommandé</span>
+          <h3>Premium</h3>
+          <div class="price">
+            <span class="amount">10 000</span>
+            <span class="period">/mois</span>
+          </div>
+          <ul class="features">
+            <li>✓ Tout le plan Standard</li>
+            <li>✓ Support prioritaire WhatsApp</li>
+            <li>✓ Maintenance mensuelle</li>
+            <li>✓ Réduction -20% réparations</li>
+          </ul>
+          <button class="btn-primary">Choisir ce plan</button>
+        </article>
+
+        <article class="pricing-card">
+          <span class="badge mb-4">Expert</span>
+          <h3>Business</h3>
+          <div class="price">
+            <span class="amount">25 000</span>
+            <span class="period">/mois</span>
+          </div>
+          <ul class="features">
+            <li>✓ Tout le plan Premium</li>
+            <li>✓ Visite à domicile incluse</li>
+            <li>✓ Support 24/7</li>
+            <li>✓ Backup cloud inclus</li>
+          </ul>
+          <button class="btn-primary">Choisir ce plan</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BLOG ==================== -->
+  <section class="blog section" id="blog">
+    <div class="container">
+      <div class="section__header-row">
+        <h2 class="section__title">Conseils &amp; Tutoriels</h2>
+        <a href="#blog" class="link-more">Voir tous les articles →</a>
+      </div>
+      <div class="blog__grid">
+        <article class="blog-card">
+          <div class="blog-card__img blog-card__img--1">
+            <div class="blog-card__img-overlay">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="48" height="48">
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <path d="M8 21h8M12 17v4" />
+                <path d="M8 9h8M8 12h6" />
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__body">
+            <time>10 Mai 2024</time>
+            <h3>5 astuces pour accélérer votre PC lent</h3>
+          </div>
+        </article>
+        <article class="blog-card blog-card--featured">
+          <div class="blog-card__img blog-card__img--2">
+            <div class="blog-card__img-overlay">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="48" height="48">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="M9 12l2 2 4-4" />
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__body">
+            <time>02 Mai 2024</time>
+            <h3>Comment protéger votre PC contre les virus</h3>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-card__img blog-card__img--3">
+            <div class="blog-card__img-overlay">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="48" height="48">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" />
+                <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" />
+              </svg>
+            </div>
+          </div>
+          <div class="blog-card__body">
+            <time>25 Avril 2024</time>
+            <h3>Quand faut-il remplacer son disque dur ?</h3>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <!-- Infos -->
+        <div class="contact__info">
+          <h2>Besoin d'aide ?<br><strong>Nous sommes là pour vous.</strong></h2>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .98h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 15.92z" />
+              </svg>
+            </div>
+            <span>01 04 23 04 86</span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <path d="M22 6l-10 7L2 6" />
+              </svg>
+            </div>
+            <span>bogixservices@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <span>Abidjan<br></span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <span>Lun – Sam : 08h – 18h<br>Dimanche : Fermé</span>
+          </div>
+        </div>
+
+        <!-- Formulaire -->
+        <div class="contact__form-wrap">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" name="nom" placeholder="Nom complet" required />
+              </div>
+              <div class="form-group">
+                <input type="localisation" name="localisation" placeholder="Marcory,Foyer des jeunes" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" name="tel" placeholder="Téléphone" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <select name="probleme">
+                <option value="" disabled selected>Type de problème</option>
+                <option>Réparation PC / Laptop</option>
+                <option>Suppression de virus</option>
+                <option>Récupération de données</option>
+                <option>Maintenance</option>
+                <option>Tablette / Accessoire</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Décrivez votre problème" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full"><a href="bogixservices@gmail.com">Envoyer la
+                demande</a></button>
+            <div class="form-success" id="formSuccess">✓ Votre demande a bien été envoyée ! Nous vous recontactons
+              rapidement.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="#accueil" class="logo logo--footer">
+            <div class="logo__icon">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="19" stroke="#1a73e8" stroke-width="2" />
+                <path d="M10 14h20M10 20h12M10 26h8" stroke="#fff" stroke-width="2.2" stroke-linecap="round" />
+                <circle cx="28" cy="24" r="5" fill="#1a73e8" />
+                <path d="M26 24l1.5 1.5L30.5 22" stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="logo__text">
+              <span class="logo__brand">BOGIX<span class="logo__accent">SERVICE</span></span>
+              <span class="logo__sub">RÉPARATION INFORMATIQUE</span>
+            </div>
+          </a>
+          <p>Votre partenaire informatique de confiance à Abidjan.</p>
+        </div>
+
+        <!-- Entreprise -->
+        <div class="footer__col">
+          <h5>Entreprise</h5>
+          <ul>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="#blog">Tutoriels / Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer__col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Réparation PC & Laptop</a></li>
+            <li><a href="#services">Suppression de virus</a></li>
+            <li><a href="#services">Récupération de données</a></li>
+            <li><a href="#services">Maintenance</a></li>
+            <li><a href="#services">Tablettes & Accessoires</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="footer__col">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#contact">FAQ</a></li>
+            <li><a href="#contact">Conditions générales</a></li>
+            <li><a href="#contact">Politique de confidentialité</a></li>
+            <li><a href="#contact">Garantie</a></li>
+          </ul>
+          <div class="footer__social">
+            <h5>Suivez-nous</h5>
+            <div class="social-links">
+              <a href="#" class="social-link social-link--fb" aria-label="Facebook">f</a>
+              <a href="#" class="social-link social-link--ig" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                </svg>
+              </a>
+              <a href="#" class="social-link social-link--li" aria-label="LinkedIn">in</a>
+              <a href="#" class="social-link social-link--yt" aria-label="YouTube">▶</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2024 bogix service – Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating btn -->
+  <a href="https://wa.me/2250104230486" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path
+        d="M12 0C5.373 0 0 5.373 0 12c0 2.138.558 4.147 1.535 5.889L.057 23.998l6.304-1.654A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.887 9.887 0 01-5.049-1.381l-.362-.215-3.741.981 1-3.641-.236-.374A9.9 9.9 0 012.106 12C2.106 6.529 6.529 2.106 12 2.106S21.894 6.529 21.894 12 17.471 21.894 12 21.894z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
